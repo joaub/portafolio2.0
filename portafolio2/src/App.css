@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.titulo{
+  font-size: 2.5rem;
+  
+}
+
+.persona{
+  width: 40%;
+}
+.nombre{
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+}
+.parrafo{
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.contacto{
+  margin: 0.2rem;
+  padding: 0;
+  
+}
+.correo{
+  display: block;
+  font-size: 1.2rem;
+  color: aqua;
+}
+.icono{
+  font-size: 2.5rem;
+  
+  padding: 0.5rem;
+}
+.icono:hover{
+  font-size: 3.5rem;
+  outline: 2px blue solid;
+}
