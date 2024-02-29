@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import PrimerComponente from './componentes/PrimerComponente'
 import SegundoComponente from './componentes/SegundoComponente'
+import Proyectos from './componentes/Proyectos'
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
     <>
         <PrimerComponente/>
         <SegundoComponente/>
+        <Proyectos/>
     </>
   )
 }

@@ -67,3 +67,19 @@
   
   .progress-circle.progress-60:after {
     background-image: linear-gradient(-54deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+  .carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+  }
+  .elemento{
+    flex: 1 0 auto;
+    margin: 0 5px;
+    width: 400px;
+    height: 400px;
+  }
+  .imagen{
+    width: 360px;
+    height: 320px;
+  }
