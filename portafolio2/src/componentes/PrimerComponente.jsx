@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import '../App.css'
 import Typewriter from 'typewriter-effect';
@@ -8,6 +9,15 @@ import { FaGithub } from "react-icons/fa"
 function PrimerComponente() {
   return (
     <>
+    <div >
+      <nav>
+        
+          <a href="#contacto" className='nav'>contacto</a>
+          <a href="#skills" className='nav'>skills</a>
+          <a href="#proyectos" className='nav'>proyectos</a>
+      </nav>
+      
+    </div>
     <section >         
           <article>
             <h1 className='titulo'>Acerca de mí</h1> 
@@ -29,12 +39,13 @@ function PrimerComponente() {
               }}
             /></h2>       
             <p className='parrafo'>Tengo 23 años, vivo en Mendoza,Argentina. </p>
+            <p className='parrafo'>Estudie en alura latam y argentina programa</p>
             <p className='parrafo'>Mi deseo es seguir expandiendo mi conocimiento y experiencia en este mundo.</p>
           </article>
       </section>
 
      
-     <section className='contacto' >
+     <section className='contacto' id='contacto'>
       <h2 >Contacto</h2>  
         <h3>Correo</h3>
         <a className='correo' target="_blank">Ugartejoa12@gmail.com</a>

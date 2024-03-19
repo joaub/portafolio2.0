@@ -68,7 +68,13 @@
   .progress-circle.progress-60:after {
     background-image: linear-gradient(-54deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
 
-  .carrusel{
+  .progress-circle.progress-25:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(180deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+  
+  .progress-circle.progress-30:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(198deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+    
+    .carrusel{
     display: flex;
     flex-wrap: nowrap;
     overflow: scroll;
@@ -82,4 +88,10 @@
   .imagen{
     width: 360px;
     height: 320px;
+    padding: 1rem;
+  }
+  .boton:hover{
+    outline: solid 1px;
+    font-size: 20px;
+    background: #367fbe;
   }

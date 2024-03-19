@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import "./skills.css"
 
@@ -5,7 +6,7 @@ function SegundoComponente() {
   return (
     <>
      <article> 
-        <h1 className='titulo'>Skills</h1>  
+        <h1 className='titulo' id='skills'>Skills</h1>  
 
         <section className="progress-circle-container ">
           <div className="skills">
@@ -32,7 +33,7 @@ function SegundoComponente() {
           </div>
           <div className="skills">
             <p className="subtitulo">Node JS</p>
-            <div className="progress-circle progress-40"><span>40</span></div>  
+            <div className="progress-circle progress-25"><span>25</span></div>  
           </div>
           <div className="skills">
             <p className="subtitulo">Bootstrap</p>
@@ -40,7 +41,7 @@ function SegundoComponente() {
           </div> 
           <div className="skills">
             <p className="subtitulo">React</p>
-            <div className="progress-circle progress-50"><span>50</span></div>  
+            <div className="progress-circle progress-30"><span>30</span></div>  
           </div> 
         </section>
       </article>

@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import "./skills.css"
 import encriptador from "../assets/encriptador.png"
@@ -8,20 +9,20 @@ import ahorcado from "../assets/juego-del-ahorcado.png"
 function Proyectos() {
   return (
     <>
-    <h2 className='titulo'>Mis Proyectos</h2>
+    <h2 className='titulo' id='proyectos'>Mis Proyectos</h2>
     <section className='carrusel'>
         <div className='elemento'>   
             <h3 >challenge 1 encriptador oracle/alura</h3>
             <section >
                 <span >
                     <a href="https://github.com/joaub/encriptador-challenge" target="_blank">
-                        <button >Repositório</button>
+                        <button className='boton'>Repositório</button>
                     </a>
                 </span>
 
                 <span >
                     <a href="https://joaub.github.io/encriptador-challenge/" target="_blank">
-                    <button >Ver demo</button></a>
+                    <button className='boton'>Ver demo</button></a>
                 </span>
             </section>
       
@@ -33,13 +34,13 @@ function Proyectos() {
             <section >
                 <span >
                     <a href="https://github.com/joaub/timerJS" target="_blank">
-                        <button >Repositório</button>
+                        <button className='boton'>Repositório</button>
                     </a>
                 </span>
 
                 <span >
                     <a href="https://joaub.github.io/timerJS/" target="_blank">
-                        <button >Ver demo</button></a>
+                        <button className='boton'>Ver demo</button></a>
                 </span>
             </section>
 
@@ -51,13 +52,13 @@ function Proyectos() {
             <section >            
                 <span >
                     <a href="https://github.com/joaub/pianoJs" target="_blank">
-                        <button >Repositório</button>
+                        <button className='boton'>Repositório</button>
                     </a>
                 </span>
             
                 <span >
                     <a href="https://joaub.github.io/pianoJs/" target="_blank">
-                    <button >Ver demo</button></a>
+                    <button className='boton'>Ver demo</button></a>
                 </span>
             </section>
         
@@ -69,13 +70,13 @@ function Proyectos() {
             <section >            
                 <span >
                 <a href="https://github.com/joaub/ahorcado-juego" target="_blank">
-                    <button >Repositório</button>
+                    <button className='boton'>Repositório</button>
                 </a>
                 </span>
                 
                 <span >
                 <a href="https://joaub.github.io/ahorcado-juego/" target="_blank">
-                    <button >Ver demo</button></a>
+                    <button className='boton'>Ver demo</button></a>
                 </span>
             </section>
             <img src={ahorcado} className='imagen'/>
