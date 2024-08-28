@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
+
 import '../App.css'
 import Typewriter from 'typewriter-effect';
 import persona from '../assets/persona.jpg' 
@@ -10,7 +10,7 @@ function PrimerComponente() {
   return (
     <>
     <div >
-      <nav>
+      <nav className='inicio'>
         
           <a href="#contacto" className='nav'>contacto</a>
           <a href="#skills" className='nav'>skills</a>

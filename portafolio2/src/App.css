@@ -45,13 +45,22 @@
   outline: 2px blue solid;
 }
 
+.inicio{
+  margin: 1rem;
+  padding: 1rem;
+  
+}
+
 .nav{
+  
   padding: 1rem;
   font-size: 17px;
-  color: #2d93c2
+  color: #e8f8ff;
+  margin: 0.5rem;
   
 }
 .nav:hover{
   font-size: 22px;
-  outline: #2d93c2 1px solid;
+  background-color: #3320dd;
+  outline: #f0faff 1px solid;
 }
