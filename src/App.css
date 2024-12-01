@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.titulo{
+  font-size: 2.5rem;
+  
+}
+
+
+.persona{
+  width: 40%;
+}
+.nombre{
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  
+}
+
+.parrafo{
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.contacto{
+  margin: 0.2rem;
+  padding: 0;
+  
+}
+.correo{
+  display: block;
+  font-size: 1.2rem;
+  color: aqua;
+}
+.icono{
+  font-size: 2.5rem;
+  
+  padding: 0.5rem;
+}
+.icono:hover{
+  font-size: 3.5rem;
+  outline: 2px blue solid;
+}
+
+.inicio{
+  margin: 1rem;
+  padding: 1rem;
+  
+}
+
+.nav{
+  
+  padding: 1rem;
+  font-size: 17px;
+  color: #e8f8ff;
+  margin: 0.5rem;
+  
+}
+.nav:hover{
+  font-size: 22px;
+  background-color: #3320dd;
+  outline: #f0faff 1px solid;
+}
